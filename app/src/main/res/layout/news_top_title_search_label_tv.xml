@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:textColor="#3f3e3e"
+    android:background="@drawable/news_top_title_search_label_bg"
+    android:textSize="14sp"
+    android:text="Helloworld" >
+</TextView>
