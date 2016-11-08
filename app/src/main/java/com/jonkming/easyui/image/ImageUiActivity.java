@@ -1,23 +1,28 @@
-package com.jonkming.easyui;
+package com.jonkming.easyui.image;
 
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.jonkming.easyui.MainActivity;
+import com.jonkming.easyui.R;
 import com.jonkming.easyui.base.BaseActivity;
-import com.jonkming.easyui.image.ImageUiActivity;
+import com.jonkming.easyui.image.dragzoom.ImageUi_DragZoomActivity;
 import com.jonkming.easyui.newstoptitle.NewsTopTitleActivity;
 
-public class MainActivity extends BaseActivity {
+/**
+ * Created by Administrator on 2016/11/7.
+ */
+
+public class ImageUiActivity extends BaseActivity {
     private Class[] mActivityUiClass = new Class[]{
-            NewsTopTitleActivity.class, ImageUiActivity.class
+            ImageUi_DragZoomActivity.class
     };
     private String[] mActiviUiTitles = new String[]{
-            "仿新闻顶部导航","图片操作集合"
+            "拖动缩放图片"
     };
     private LinearLayout mLayout ;
 
@@ -35,7 +40,7 @@ public class MainActivity extends BaseActivity {
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    startActivity(new Intent(MainActivity.this,mActivityUiClass[i]));
+                    startActivity(new Intent(ImageUiActivity.this,mActivityUiClass[i]));
                 }
             });
             mLayout.addView(button);

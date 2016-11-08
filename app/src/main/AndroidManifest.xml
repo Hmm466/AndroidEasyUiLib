@@ -16,6 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".newstoptitle.NewsTopTitleActivity" ></activity>
+        <activity android:name=".image.ImageUiActivity" ></activity>
+        <activity android:name=".image.dragzoom.ImageUi_DragZoomActivity" ></activity>
     </application>
 
 </manifest>

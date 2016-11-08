@@ -1,6 +1,7 @@
 package com.jonkming.easyui.base;
 
 import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 
 
 /**
@@ -12,6 +13,6 @@ import android.app.Activity;
 * @date 2016/11/7 14:11
 * @version V1.0
 */
-public class BaseActivity extends Activity {
+public class BaseActivity extends AppCompatActivity {
 
 }
