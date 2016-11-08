@@ -18,6 +18,7 @@
         <activity android:name=".newstoptitle.NewsTopTitleActivity" ></activity>
         <activity android:name=".image.ImageUiActivity" ></activity>
         <activity android:name=".image.dragzoom.ImageUi_DragZoomActivity" ></activity>
+        <activity android:name=".image.electrocardiogram.ElectrocardiogramActivity" ></activity>
     </application>
 
 </manifest>

@@ -11,6 +11,7 @@ import com.jonkming.easyui.MainActivity;
 import com.jonkming.easyui.R;
 import com.jonkming.easyui.base.BaseActivity;
 import com.jonkming.easyui.image.dragzoom.ImageUi_DragZoomActivity;
+import com.jonkming.easyui.image.electrocardiogram.ElectrocardiogramActivity;
 import com.jonkming.easyui.newstoptitle.NewsTopTitleActivity;
 
 /**
@@ -19,10 +20,10 @@ import com.jonkming.easyui.newstoptitle.NewsTopTitleActivity;
 
 public class ImageUiActivity extends BaseActivity {
     private Class[] mActivityUiClass = new Class[]{
-            ImageUi_DragZoomActivity.class
+            ImageUi_DragZoomActivity.class, ElectrocardiogramActivity.class
     };
     private String[] mActiviUiTitles = new String[]{
-            "拖动缩放图片"
+            "拖动缩放图片","心电图"
     };
     private LinearLayout mLayout ;
 
