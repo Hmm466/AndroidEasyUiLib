@@ -34,6 +34,7 @@ import java.util.ArrayList;
 * @version V1.0
 */
 public class NewsTopTitleActivity extends BaseFragmentActivity {
+
     /**自定义的HorizontalScrollView**/
     private ColumnHorizontalScrollView mColumnHorizontalScrollView;
 
@@ -112,6 +113,7 @@ public class NewsTopTitleActivity extends BaseFragmentActivity {
         mViewPager = (ViewPager) findViewById(R.id.mViewPager);
         shade_left = (ImageView) findViewById(R.id.shade_left);
         shade_right = (ImageView) findViewById(R.id.shade_right);
+
         button_more_columns.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -23,7 +23,7 @@ public class ImageUiActivity extends BaseActivity {
             ImageUi_DragZoomActivity.class, ElectrocardiogramActivity.class
     };
     private String[] mActiviUiTitles = new String[]{
-            "拖动缩放图片","心电图"
+            "拖动缩放图片","心电图","仿淘宝商品详情及图文详情"
     };
     private LinearLayout mLayout ;
 
