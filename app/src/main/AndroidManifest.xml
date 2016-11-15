@@ -19,6 +19,7 @@
         <activity android:name=".image.ImageUiActivity" ></activity>
         <activity android:name=".image.dragzoom.ImageUi_DragZoomActivity" ></activity>
         <activity android:name=".image.electrocardiogram.ElectrocardiogramActivity" ></activity>
+        <activity android:name="com.yzp.easyui.taodetails.FragmentShow"></activity>
     </application>
 
 </manifest>

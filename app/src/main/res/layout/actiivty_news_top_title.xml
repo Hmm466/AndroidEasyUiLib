@@ -32,6 +32,7 @@
                     android:orientation="horizontal"
                     android:paddingLeft="10.0dip"
                     android:paddingRight="10.0dip" />
+
             </com.jonkming.easyui.newstoptitle.ui.ColumnHorizontalScrollView>
 
             <ImageView
